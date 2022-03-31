@@ -1,0 +1,5 @@
+frase = str(input('Escreva uma frase :')).strip()
+frasemin = frase.lower()
+print(f'Quantas vezes aparece a letra "a"?\nVezes: {frasemin.count("a")}')
+print(f'Qual posiçao dela, primeira vez?\nPosição: {frasemin.find("a")+1}')
+print(f'Qual posiçao dela, ultima vez?\nPosição: {frasemin.rfind("a")+1}')
